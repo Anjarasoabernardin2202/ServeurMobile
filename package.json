@@ -1,0 +1,36 @@
+{
+  "name": "serveur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serveur.js",
+  "engines": {
+    "node": "16.13.0"
+  },
+  "scripts": {
+    "start": "nodemon serveur.js",
+    "dev": "graphpack",
+    "build": "graphpack build"
+  },
+  "author": "bernardin",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "graphpack": "^1.0.9",
+    "graphql": "^15.6.0",
+    "hbs": "^4.1.2",
+    "heroku": "^7.59.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.1",
+    "nodemon": "^2.0.7",
+    "sequelize": "^3.30.4",
+    "twilio": "^3.64.0",
+    "validator": "^13.7.0"
+  }
+}
